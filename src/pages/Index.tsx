@@ -4,12 +4,12 @@ export default function Index() {
       <div className="grain-overlay" />
 
       <header className="header">
-        <div className="logo">VINYL*DINER</div>
+        <div className="logo">ПОДВАЛ*</div>
         <nav>
           <a href="#">Меню</a>
-          <a href="#">О нас</a>
-          <a href="#">Афиша</a>
-          <a href="#">Адреса</a>
+          <a href="#">Атмосфера</a>
+          <a href="#">Галерея</a>
+          <a href="#">Контакты</a>
         </nav>
         <button className="btn-cta">Забронировать</button>
       </header>
@@ -18,16 +18,16 @@ export default function Index() {
         <section className="hero">
           <div className="hero-content">
             <h1 className="hero-title">
-              БЕЗ ПОНТОВ,
+              ГЛУБЖЕ
               <br />
-              ТОЛЬКО <span>ВКУС</span>
+              ЗНАЧИТ <span>ЛУЧШЕ</span>
             </h1>
             <p className="text-base md:text-lg lg:text-xl mb-8 md:mb-10 leading-relaxed text-[#555]">
-              Эстетика 70-х в современной подаче. Локальные продукты, огненные блюда и атмосфера для настоящих ценителей.
+              Кальянная «Подвал» — место, где время течёт по-другому. Тёмная атмосфера, отборный табак и настоящий отдых без суеты.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-5">
               <button className="btn-cta" style={{ background: "var(--primary)", color: "white" }}>
-                Заказать
+                Забронировать место
               </button>
               <button className="btn-cta" style={{ background: "white" }}>
                 Смотреть меню
@@ -36,29 +36,29 @@ export default function Index() {
           </div>
           <div className="hero-img">
             <div className="sticker">
-              СВЕЖАК
+              СВЕЖИЙ
               <br />
-              КАЖДЫЙ ДЕНЬ
+              ТАБАК
             </div>
             <div className="floating-tag hidden md:block" style={{ top: "20%", left: "10%" }}>
-              #ЭСТЕТИКА
+              #ПОДВАЛ
             </div>
             <div className="floating-tag hidden md:block" style={{ bottom: "30%", right: "20%" }}>
-              ОГОНЬ
+              АТМОСФЕРА
             </div>
           </div>
         </section>
 
         <div className="marquee">
           <div className="marquee-content">
-            &nbsp; * БУРГЕРЫ КОТОРЫЕ РВУТ * КРАФТОВЫЕ КОКТЕЙЛИ * ТОЛЬКО РЕТРО ВАЙБ * ОТКРЫТЫ ДО 2:00 * ЛУЧШИЕ В ГОРОДЕ *
-            БУРГЕРЫ КОТОРЫЕ РВУТ * КРАФТОВЫЕ КОКТЕЙЛИ * ТОЛЬКО РЕТРО ВАЙБ * ОТКРЫТЫ ДО 2:00 * ЛУЧШИЕ В ГОРОДЕ
+            &nbsp; * ОТБОРНЫЙ ТАБАК * ТЁМНАЯ АТМОСФЕРА * ОТКРЫТЫ ДО 3:00 * ЖИВАЯ МУЗЫКА * ЛУЧШИЙ КАЛЬЯН В ГОРОДЕ *
+            ОТБОРНЫЙ ТАБАК * ТЁМНАЯ АТМОСФЕРА * ОТКРЫТЫ ДО 3:00 * ЖИВАЯ МУЗЫКА * ЛУЧШИЙ КАЛЬЯН В ГОРОДЕ
           </div>
         </div>
 
         <section className="section-padding">
           <div className="section-header">
-            <h2 className="section-title">ВЫБОР ШЕФА</h2>
+            <h2 className="section-title">МЕНЮ КАЛЬЯНОВ</h2>
             <a
               href="#"
               className="text-sm md:text-base"
@@ -71,10 +71,10 @@ export default function Index() {
           <div className="menu-grid">
             {/* Item 1 */}
             <div className="menu-card">
-              <span className="menu-tag">Хит продаж</span>
+              <span className="menu-tag">Хит вечера</span>
               <img
-                src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                alt="Классический бургер"
+                src="https://images.unsplash.com/photo-1559181567-c3190bead3e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Классический кальян"
               />
               <div className="menu-card-body">
                 <div
@@ -85,23 +85,23 @@ export default function Index() {
                     marginBottom: "10px",
                   }}
                 >
-                  <h3>Классика</h3>
-                  <span className="price">1 400 ₽</span>
+                  <h3>Классика Подвала</h3>
+                  <span className="price">1 500 ₽</span>
                 </div>
                 <p style={{ fontSize: "14px", color: "#666" }}>
-                  Тройной смэш из мраморной говядины, фирменный соус, маринованные огурцы на бриоши.
+                  Двойная забивка, отборный табак, ледяной охладитель. Базис, который не подведёт.
                 </p>
               </div>
             </div>
 
             {/* Item 2 */}
             <div className="menu-card">
-              <span className="menu-tag" style={{ background: "var(--secondary)" }}>
-                Острое
+              <span className="menu-tag" style={{ background: "var(--secondary)", color: "white" }}>
+                Новинка
               </span>
               <img
-                src="https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                alt="Неоновая пицца"
+                src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Фруктовый кальян"
               />
               <div className="menu-card-body">
                 <div
@@ -112,21 +112,21 @@ export default function Index() {
                     marginBottom: "10px",
                   }}
                 >
-                  <h3>Электро Пепперони</h3>
-                  <span className="price">1 800 ₽</span>
+                  <h3>Фруктовая Бомба</h3>
+                  <span className="price">2 000 ₽</span>
                 </div>
-                <p style={{ fontSize: "14px", color: "#666" }}>Двойная пепперони, острый мёд, тесто на закваске.</p>
+                <p style={{ fontSize: "14px", color: "#666" }}>Смесь экзотических вкусов в чаше из свежего фрукта. Яркий и насыщенный дым.</p>
               </div>
             </div>
 
             {/* Item 3 */}
             <div className="menu-card">
               <span className="menu-tag" style={{ background: "var(--accent)", color: "var(--dark)" }}>
-                Популярное
+                VIP
               </span>
               <img
-                src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                alt="Диско Сауэр"
+                src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="VIP кальян"
               />
               <div className="menu-card-body">
                 <div
@@ -137,11 +137,11 @@ export default function Index() {
                     marginBottom: "10px",
                   }}
                 >
-                  <h3>Диско Сауэр</h3>
-                  <span className="price">1 200 ₽</span>
+                  <h3>Dark Room</h3>
+                  <span className="price">3 500 ₽</span>
                 </div>
                 <p style={{ fontSize: "14px", color: "#666" }}>
-                  Джин, цветок бузины, голубой чай и съедобная золотая пыльца.
+                  Премиальный табак, колба с охлаждением, персональный мастер весь вечер.
                 </p>
               </div>
             </div>
@@ -150,13 +150,13 @@ export default function Index() {
 
         <section className="retro-vibe">
           <div>
-            <h2 className="vibe-title">ВАЙБ-ЧЕК ПРОЙДЕН.</h2>
+            <h2 className="vibe-title">АТМОСФЕРА ПОДВАЛА.</h2>
             <p className="vibe-text">
-              Мы не просто кормим. Мы создаём моменты. От плейлиста хип-хопа 90-х до диванов в стиле 70-х — каждый уголок
-              продуман для твоего идеального кадра. Бронь не нужна, просто приходи с настроением.
+              Спустись вниз — и забудь о суете наверху. Низкое освещение, живые плейлисты, кожаные диваны и дым, который
+              создаёт настроение. Здесь не торопят и не смотрят на часы.
             </p>
             <button className="btn-cta" style={{ background: "var(--dark)", color: "white", borderColor: "white" }}>
-              Наша история
+              О нас
             </button>
           </div>
           <div className="vibe-img"></div>
@@ -164,31 +164,31 @@ export default function Index() {
 
         <section className="section-padding">
           <h2 className="section-title" style={{ marginBottom: "40px", textAlign: "center" }}>
-            @VINYL.DINER
+            @PODVAL.HOOKAH
           </h2>
           <div className="social-grid">
             <div className="social-item">
               <img
-                src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-                alt="Инста 1"
+                src="https://images.unsplash.com/photo-1534531173927-aeb928d54385?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+                alt="Атмосфера 1"
               />
             </div>
             <div className="social-item">
               <img
-                src="https://images.unsplash.com/photo-1534353473418-4cfa6c56fd38?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-                alt="Инста 2"
+                src="https://images.unsplash.com/photo-1571115764595-644a1f56a55c?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+                alt="Атмосфера 2"
               />
             </div>
             <div className="social-item">
               <img
-                src="https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-                alt="Инста 3"
+                src="https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+                alt="Атмосфера 3"
               />
             </div>
             <div className="social-item">
               <img
-                src="https://images.unsplash.com/photo-1559339352-11d035aa65de?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-                alt="Инста 4"
+                src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+                alt="Атмосфера 4"
               />
             </div>
           </div>
@@ -197,9 +197,9 @@ export default function Index() {
 
       <footer>
         <div>
-          <div className="footer-logo">VINYL*DINER</div>
+          <div className="footer-logo">ПОДВАЛ*</div>
           <p style={{ color: "#666", lineHeight: 1.6 }}>
-            Твоё место для еды высокого качества и лоу-фай атмосферы. С 2024, но ощущается как 1974.
+            Кальянная с характером. Место, куда хочется возвращаться снова. Открыты каждый день до 3:00.
           </p>
         </div>
         <div className="footer-links">
@@ -207,22 +207,22 @@ export default function Index() {
           <ul>
             <li>
               <a href="#" style={{ color: "inherit", textDecoration: "none" }}>
-                Меню
+                Меню кальянов
               </a>
             </li>
             <li>
               <a href="#" style={{ color: "inherit", textDecoration: "none" }}>
-                О нас
+                Атмосфера
               </a>
             </li>
             <li>
               <a href="#" style={{ color: "inherit", textDecoration: "none" }}>
-                Политика
+                Галерея
               </a>
             </li>
             <li>
               <a href="#" style={{ color: "inherit", textDecoration: "none" }}>
-                Условия
+                Контакты
               </a>
             </li>
           </ul>
@@ -230,16 +230,27 @@ export default function Index() {
         <div className="footer-links">
           <h4>Часы работы</h4>
           <ul>
-            <li>Вт-Чт: 12:00 - 23:00</li>
-            <li>Пт-Сб: 12:00 - 02:00</li>
-            <li>Вс: 11:00 - 21:00</li>
-            <li>Пн: Выходной</li>
+            <li>Пн–Чт: 15:00 – 2:00</li>
+            <li>Пт–Вс: 14:00 – 3:00</li>
+            <li>Без выходных</li>
           </ul>
         </div>
-        <div className="footer-bottom">
-          <span>2025 VINYL DINER</span>
-          <span>ВКУС КЛАССИКИ</span>
-          <span>IG / TW / TK</span>
+        <div className="footer-links">
+          <h4>Контакты</h4>
+          <ul>
+            <li>+7 (000) 000-00-00</li>
+            <li>ул. Подвальная, 1</li>
+            <li>
+              <a href="#" style={{ color: "inherit", textDecoration: "none" }}>
+                Instagram
+              </a>
+            </li>
+            <li>
+              <a href="#" style={{ color: "inherit", textDecoration: "none" }}>
+                Telegram
+              </a>
+            </li>
+          </ul>
         </div>
       </footer>
     </>
